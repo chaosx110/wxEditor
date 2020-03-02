@@ -94,8 +94,6 @@ $.support.cors = true;
             return addUnsigned(rotateLeft(a, s), b);
         };
 
-        global.console.log("%chttps://github.com/MuGuiLin/wxEditor", "font-size:32px; color:blue;");
-
         var convertToWordArray = function (string) {
             var lWordCount;
             var lMessageLength = string.length;
@@ -1095,8 +1093,6 @@ $.support.cors = true;
             $this.CreateAlert();
         };
 
-        global.console.log("%c\u5b89\u5168❤️\u8b66\u544a\uff01\uff01\uff01", "font-size:56px;color:white;-webkit-text-fill-color:blue;-webkit-text-stroke: 1px blue;");
-
         var ImgZoom = function (config) {
             this.config = config;
             this.index = 0;
@@ -1438,8 +1434,6 @@ $.support.cors = true;
                 _this.SetLiftPx(_this.index);
             },
         };
-
-        global.console.log("%c\u8be5\u5728\u7ebf\u7f16\u8f91\u5668\u7528\u4e8e\u672c\u4eba\u7814\u7a76\u548c\u5b66\u4e60\u4f7f\u7528\u7684\uff0c\u4e3b\u8981\u529f\u80fd\u7c7b\u4f3c\u5fae\u4fe1\u53d1\u5e03\u6587\u7ae0\u7684\u7f16\u8f91\u5668\uff0c\u4ec5\u4f9b\u53c2\u8003\uff01", "font-size:22px; color:red; background:yellow;");
 
         $.extend({
             Alert: function (options) {
